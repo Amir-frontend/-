@@ -56,6 +56,7 @@ export default function Loneform() {
 
         <label> FullName</label>
         <input
+          style={{textAlign: "center"}}
           onChange={(event) => {
             setforminput({ ...forminput, FullName: event.target.value });
           }}
@@ -65,6 +66,7 @@ export default function Loneform() {
 
         <label> PhoneMobael</label>
         <input
+        style={{textAlign: "center"}}
           onChange={(event) => {
             setforminput({ ...forminput, Email: event.target.value });
           }}
@@ -74,6 +76,7 @@ export default function Loneform() {
 
         <label> Age</label>
         <input
+        style={{textAlign: "center"}}
           onChange={(event) => {
             setforminput({ ...forminput, Age: event.target.value });
           }}
